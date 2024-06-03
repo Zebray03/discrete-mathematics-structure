@@ -1,4 +1,4 @@
-6.1 Exercises
+## 6.1 Exercises
 
 10.
 
@@ -124,7 +124,7 @@ $\textbf{Q.E.D.}$
 
 
 
-6.2 Exercises
+## 6.2 Exercises
 
 6.
 
@@ -274,7 +274,7 @@ $\textbf{Q.E.D.}$
 
 
 
-6.3 Exercises
+## 6.3 Exercises
 
 1.是
 
@@ -416,4 +416,440 @@ $a \wedge (b \vee c) = a\wedge c = a = a \vee a = (a \wedge b) \vee (a \wedge c)
 
 $a \vee (b \wedge c) = a \vee b = b = b\wedge c = (a \vee b) \wedge (a \vee c)$​
 
-故$L$是分配格。$\textbf{Q.E.D.}$
+故$L$是分配格。$\textbf{Q.E.D.}$​
+
+
+
+## 6.4 Exercises
+
+6.
+
+$e$无补元，故不是布尔代数。$\textbf{Q.E.D.}$
+
+
+
+8.
+
+取映射$f(a)=00,f(b)=01,f(c)=10,f(d)=11$，则$f$是同构，故是布尔代数。$\textbf{Q.E.D.}$
+
+
+
+10.
+
+$2^2\ |\ 60$，据例8结论得$D_{60}$不是布尔代数。$\textbf{Q.E.D.}$
+
+
+
+16.
+
+据定理3，(a)(b)(e)等价。
+
+(c)$\Rightarrow$(d)：$a \wedge b' = (a' \vee b)' = I' =0$
+
+(d)$\Rightarrow$(e)：$b = 0 \vee b = (a \wedge b') \vee b = (a \vee b) \wedge (b' \vee b) = a \vee b$，故$a \le b$
+
+(e)$\Rightarrow$(c)：据$a \le b,a \wedge b = a$，故$a' \vee b = (a' \vee a) \wedge (a' \vee b) = a' \vee a = I$
+
+故(a)(b)(c)(d)(e)两两等价。$\textbf{Q.E.D.}$
+
+
+
+17.
+
+$$
+(a \wedge b) \vee (a \wedge b') = a \wedge (b \vee b') = a \wedge I = a \qquad \textbf{Q.E.D.}
+$$
+
+
+18.
+$$
+b \wedge (a \vee (a' \wedge (b \vee b'))) = b \wedge (a \vee (a' \wedge I)) = b \wedge (a \vee a') = b \wedge I = b \quad \textbf{Q.E.D.}
+$$
+
+
+19.
+
+$$
+(a \wedge b \wedge c) \vee (b \wedge c) = (a \vee I) \wedge (b \wedge c) = I \wedge (b \wedge c) = b \wedge c \quad \textbf{Q.E.D.}
+$$
+
+
+20.
+$$
+((a \vee c) \wedge (b' \vee c))' = ((a \wedge b') \vee c)' = (a \wedge b')' \wedge c' = (a' \vee b) \wedge c' \quad \textbf{Q.E.D.}
+$$
+
+
+21.
+$$
+a \vee (b \wedge c) = (a \vee b) \wedge (a \vee c) = b \wedge (a \vee c) \quad \textbf{Q.E.D.}
+$$
+
+
+27.
+
+$R$对应的偏序关系格不是有补格，故不是布尔代数。$\textbf{Q.E.D.}$
+
+
+
+29.
+
+(a) $\{a\},\{b\},\{c\}$
+
+(b) $2,3,5$
+
+
+
+32.
+
+(a) $110=100 \vee 010,101=100 \vee 001,011=010 \vee 001,111=100 \vee 010 \vee 001$
+
+(b) $6=2\vee3,14=2\vee7,21=3\vee7,42=2\vee3\vee7$
+
+(c)$\begin{bmatrix}
+	1 & 1 \\
+	0 & 0 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	1 & 0 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 1 \\
+	0 & 0 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	1 & 0 \\
+	1 & 0 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	1 & 0 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	1 & 0 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	1 & 0 \\
+	0 & 1 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	1 & 0 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	0 & 1 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	0 & 1 \\
+	1 & 0 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	0 & 1 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	1 & 0 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	0 & 1 \\
+	0 & 1 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	0 & 1 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	0 & 1 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	0 & 0 \\
+	1 & 1 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	0 & 0 \\
+	1 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	0 & 1 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	1 & 1 \\
+	1 & 0 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	1 & 0 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 1 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	1 & 0 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	1 & 1 \\
+	0 & 1 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	1 & 0 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 1 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	0 & 1 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	1 & 0 \\
+	1 & 1 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	1 & 0 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	1 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	0 & 1 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	0 & 1 \\
+	1 & 1 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	0 & 1 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	1 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	0 & 1 \\
+\end{bmatrix}$
+
+$\begin{bmatrix}
+	1 & 1 \\
+	1 & 1 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+	1 & 0 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 1 \\
+	0 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	1 & 0 \\
+\end{bmatrix}
+\vee
+\begin{bmatrix}
+	0 & 0 \\
+	0 & 1 \\
+\end{bmatrix}$
+
+
+
+## 6.5 Exercises
+
+11.
+
+$\begin{align}
+	(x \wedge y' \wedge z) \vee (x \wedge y \wedge z) &= x \wedge ((y' \wedge z) \vee (y \wedge z)) \\
+	&= x \wedge (y' \vee y) \wedge z \\
+	&= x \wedge I \wedge z \\
+	&= x \wedge z \\
+\end{align}$
+
+
+
+12.
+
+$\begin{align}
+	(z \vee (y \wedge (x \vee x'))) \wedge (y \wedge z')' &= (z \vee (y \wedge I)) \wedge (y \wedge z')' \\
+	&=(z \vee y) \wedge (y' \vee z) \\
+	&=z \vee (y \wedge y') \\
+	&=z \vee 0 \\
+	&=z
+\end{align}$
+
+
+
+13.
+
+$\begin{align}
+	(y \wedge z) \vee x' \vee (w \wedge w') \vee (y \wedge z') &= (y \wedge z) \vee x' \vee 0 \vee (y \wedge z') \\
+	&= (y \wedge (z \vee z')) \vee x' \\
+	&= (y \wedge I) \vee x' \\
+	&= y \vee x' \\
+\end{align}$
+
+
+
+
+14.
+
+$\begin{align}
+	&(x' \wedge y' \wedge z' \wedge w) \vee (x' \wedge z' \wedge w' \wedge y') \vee (w' \wedge x' \wedge y \wedge z') \vee (w \wedge x' \wedge y \wedge z') \\
+	=& ((x' \wedge y' \wedge z') \wedge (w \vee w')) \vee ((w \vee w') \wedge (x' \wedge y \wedge z')) \\
+	=& (x' \wedge y' \wedge z' \wedge I) \vee (I \wedge x' \wedge y \wedge z') \\
+	=& (x' \wedge y' \wedge z') \vee (x' \wedge y \wedge z') \\
+	=& x' \wedge (y' \vee y) \wedge z' \\
+	=& x'  \wedge z'
+\end{align}$
+
+
+
+
+18.
+
+$f(x,y,z)=(x \vee (y \wedge z))'\vee z'$
+
+
+
+19.
+
+$f(x,y,z)=((x \wedge y) \vee (y \wedge z))'$
+
+
+
+20.
+
+$f(x,y,z,w)=((x' \wedge x)' \vee 1) \vee ((y \wedge w') \vee ((y \wedge w) \vee z'))$
+
+
+
+21.
+
+$\begin{align}
+	f(x,y,z)=(x \vee (y \wedge z))'\vee z' &= (x \vee (y \wedge z) \wedge z)' \\
+	&= ((x \vee y) \wedge(x \vee z) \wedge z)' \\
+	&= ((x \vee y)\wedge z)' \\
+\end{align}$
+
+![](.\media\chapter6-5-21.drawio.svg)
+
+
+
+22.
+
+$\begin{align}
+	f(x,y,z)=((x \wedge y) \vee (y \wedge z))' &= (y \wedge (x \vee z))'
+\end{align}$
+
+![](.\media\chapter6-5-22.drawio.svg)
+
+
+
+23.
+
+$\begin{align}
+	f(x,y,z,w)=&((x' \wedge x)' \vee 1) \vee ((y \wedge w') \vee ((y \wedge w) \vee z')) \\
+	=& (y \wedge w') \vee (y \wedge w) \vee z' \\
+	=& y \vee z'
+\end{align}$
+
+![](.\media\chapter6-5-23.drawio.svg)
+
+
+
+## 6.6 Exercises
+
+8.
+
+![](.\media\chapter6-6-8.drawio.svg)
+
+
+
+12.
+
+$f(x,y,z)=(x' \wedge z') \vee (y' \wedge z) \vee (x \wedge y \wedge z')$
+
+
+
+14.
+
+$f(x,y,z)=(x' \wedge y') \vee (x' \wedge y) \vee (y \wedge z)=x' \vee (y \wedge z)$
+
+
+
+16.
+
+$f(x,y,z,w)=(x' \wedge z') \vee (x' \wedge z \wedge w') \vee (x \wedge y \wedge w')$
+
+
+
+24.
+
+![](.\media\chapter6-6-24.drawio.svg)
+
+$f(x,y,z,w)=(x' \wedge y' \wedge w) \vee (x \wedge y' \wedge w') \vee (x' \wedge y \wedge z' \wedge w') \vee (x \wedge y \wedge z' \wedge w)$
+
+
+
+25.
+
+(a) $x' \wedge y',x' \wedge y,x \wedge y'$
+
+(b) 据$\wedge$的交换性和结合性，并注意到$(x_1 \wedge x_2 \wedge \cdots \wedge x_n \wedge y) \vee (x_1 \wedge x_2 \wedge \cdots \wedge x_n \wedge y') = x_1 \wedge x_2 \wedge \cdots \wedge x_n$。$\textbf{Q.E.D.}$
+
+
+
+26.
+
+(a) $x',y'$
+
+(b) $f(x,y)=x' \vee y',f(0,0)=f(0,1)=f(0,1)=1,f(1,1)=0$
